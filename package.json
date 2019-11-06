@@ -1,0 +1,73 @@
+{
+  "name": "@open-wc/storybook-prebuilt",
+  "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "A prebuilt storybook version for web components",
+  "author": "open-wc",
+  "license": "MIT",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "build": "webpack && rollup -c rollup.config.js",
+    "lint:eslint": "eslint --ext .js,.html . --ignore-path .gitignore",
+    "format:eslint": "eslint --ext .js,.html . --fix --ignore-path .gitignore",
+    "lint:prettier": "prettier \"**/*.js\" --check --ignore-path .gitignore",
+    "format:prettier": "prettier \"**/*.js\" --write --ignore-path .gitignore",
+    "lint": "npm run lint:eslint && npm run lint:prettier",
+    "format": "npm run format:eslint && npm run format:prettier"
+  },
+  "files": [
+    "dist",
+    "src",
+    "*.js"
+  ],
+  "peerDependencies": {
+    "lit-html": "^1.0.0"
+  },
+  "devDependencies": {
+    "@open-wc/testing-helpers": "^1.3.0",
+    "@storybook/addon-a11y": "5.3.0-alpha.40",
+    "@storybook/addon-actions": "5.3.0-alpha.40",
+    "@storybook/addon-backgrounds": "5.3.0-alpha.40",
+    "@storybook/addon-console": "^1.1.0",
+    "@storybook/addon-docs": "5.3.0-alpha.40",
+    "@storybook/addon-knobs": "5.3.0-alpha.40",
+    "@storybook/addon-links": "5.3.0-alpha.40",
+    "@storybook/addon-storysource": "5.3.0-alpha.40",
+    "@storybook/addon-viewport": "5.3.0-alpha.40",
+    "@storybook/web-components": "5.3.0-alpha.40",
+    "babel-loader": "^8.0.0",
+    "lit-html": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "rollup": "^1.26.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-terser": "^5.1.2",
+    "eslint": "^6.1.0",
+    "@open-wc/eslint-config": "^1.0.0",
+    "@open-wc/prettier-config": "^0.1.10",
+    "husky": "^1.0.0",
+    "lint-staged": "^8.0.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@open-wc/eslint-config",
+      "eslint-config-prettier"
+    ]
+  },
+  "prettier": "@open-wc/prettier-config",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
