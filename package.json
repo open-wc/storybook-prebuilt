@@ -1,6 +1,6 @@
 {
   "name": "@open-wc/storybook-prebuilt",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publishConfig": {
     "access": "public"
   },
@@ -10,7 +10,9 @@
   "main": "index.js",
   "module": "index.js",
   "scripts": {
-    "build": "webpack && rollup -c rollup.config.js",
+    "build": "npm run build:webpack && npm run build:rollup",
+    "build:rollup": "rollup -c rollup.config.js",
+    "build:webpack": "webpack",
     "lint:eslint": "eslint --ext .js,.html . --ignore-path .gitignore",
     "format:eslint": "eslint --ext .js,.html . --fix --ignore-path .gitignore",
     "lint:prettier": "prettier \"**/*.js\" --check --ignore-path .gitignore",

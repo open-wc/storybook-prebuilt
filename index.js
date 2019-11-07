@@ -29,4 +29,4 @@ export {
   optionsKnob,
 } from './dist/preview.js';
 
-export { withWebComponentsKnobs } from './addons/withWebComponentsKnobs.js';
+export { withWebComponentsKnobs } from './dist/preview.js';
