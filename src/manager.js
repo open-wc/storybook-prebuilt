@@ -3,7 +3,6 @@ import '@storybook/core/dist/client/manager/index.js';
 
 // order of tabs in addons panel
 import '@storybook/addon-actions/register';
-import '@storybook/addon-storysource/register';
 import '@storybook/addon-knobs/register';
 import '@storybook/addon-a11y/register';
 import '@storybook/addon-docs/register';
