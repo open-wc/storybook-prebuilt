@@ -37,24 +37,27 @@ export default {
           'optionsKnob',
           'withWebComponentsKnobs',
           // Docs Mode
-          'mdx',
+          'Anchor',
+          'Description',
           'DocsContainer',
           'DocsPage',
+          'Heading',
+          'Meta',
           'Story',
           'Preview',
-          'Meta',
+          'mdx',
           'Props',
           // web components
           'html',
           'setCustomElements',
           'getCustomElements',
           'isValidComponent',
-          'isValidMetaData'
+          'isValidMetaData',
         ],
       },
     }),
     {
-      renderChunk(code, id) {
+      renderChunk(code) {
         return code.replace(
           "import litHtml from 'lit-html';",
           "import * as litHtml from 'lit-html';",
