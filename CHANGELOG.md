@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/open-wc/storybook-prebuilt/compare/v0.0.7...v0.0.8) (2019-12-03)
+
+
+### Bug Fixes
+
+* add Anchor, Description, Heading doc blocks ([2c06a0f](https://github.com/open-wc/storybook-prebuilt/commit/2c06a0fce9898f9f5082c2c3ff7ab0fcab379240))
+
 ### [0.0.7](https://github.com/open-wc/storybook-prebuilt/compare/v0.0.6...v0.0.7) (2019-12-02)
 
 
