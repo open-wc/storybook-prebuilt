@@ -54,6 +54,8 @@ export default {
           'getCustomElements',
           'isValidComponent',
           'isValidMetaData',
+          // unknown
+          'assertIsFn',
         ],
       },
     }),
