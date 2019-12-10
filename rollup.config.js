@@ -37,6 +37,7 @@ export default {
           'optionsKnob',
           'withWebComponentsKnobs',
           // Docs Mode
+          'AddContext',
           'Anchor',
           'Description',
           'DocsContainer',
