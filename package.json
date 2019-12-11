@@ -52,6 +52,8 @@
     "rollup": "^1.26.3",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-terser": "^5.1.2",
+    "standard-version": "^7.0.1",
+    "storybook-addon-web-components-knobs": "^0.2.2",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.9"
   },
@@ -73,8 +75,5 @@
       "prettier --write",
       "git add"
     ]
-  },
-  "dependencies": {
-    "standard-version": "^7.0.1"
   }
 }

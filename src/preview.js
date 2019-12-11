@@ -40,4 +40,4 @@ export {
   optionsKnob,
 } from '@storybook/addon-knobs';
 
-export { withWebComponentsKnobs } from './withWebComponentsKnobs.js';
+export { withWebComponentsKnobs } from 'storybook-addon-web-components-knobs';
