@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.1](https://github.com/open-wc/storybook-prebuilt/compare/v0.2.0...v0.2.1) (2019-12-31)
+
+
+### Features
+
+* output preview sourcemaps ([f18a6f3](https://github.com/open-wc/storybook-prebuilt/commit/f18a6f3b292daaa0fe4a7e936c15252b77485b70))
+
 ## [0.2.0](https://github.com/open-wc/storybook-prebuilt/compare/v0.1.3...v0.2.0) (2019-12-11)
 
 
