@@ -6,6 +6,7 @@ export default {
   output: {
     file: 'dist/preview.js',
     format: 'esm',
+    sourcemap: true,
   },
   plugins: [
     commonjs({
@@ -61,10 +62,13 @@ export default {
     }),
     {
       renderChunk(code) {
-        return code.replace(
-          "import litHtml from 'lit-html';",
-          "import * as litHtml from 'lit-html';",
-        );
+        return {
+          code: code.replace(
+            "import litHtml from 'lit-html';",
+            "import * as litHtml from 'lit-html';",
+          ),
+          map: null,
+        };
       },
     },
     terser(),
