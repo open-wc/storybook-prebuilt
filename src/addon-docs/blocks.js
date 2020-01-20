@@ -32,3 +32,4 @@ export {
   HeaderMdx,
   HeadersMdx,
 } from '@storybook/addon-docs/blocks';
+export { mdx } from '@mdx-js/react';
