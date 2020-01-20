@@ -13,6 +13,9 @@ import virtualModules from './plugins/virtual-modules.js';
 
 export default {
   input: {
+    react: './src/react.js',
+    'react-dom': './src/react-dom.js',
+
     manager: './src/manager.js',
     'web-components': './src/web-components.js',
     addons: './src/addons.js',
