@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/open-wc/storybook-prebuilt/compare/v1.0.0...v1.1.0) (2020-01-20)
+
+
+### Features
+
+* export mdx ([5f5d31c](https://github.com/open-wc/storybook-prebuilt/commit/5f5d31c8cba4e5706fa429ba8583d589378a1bc0))
+* expose react as an entrypoint ([098c6a8](https://github.com/open-wc/storybook-prebuilt/commit/098c6a81613a287f0cd97f50d81ead769f1af6c2))
+
 ## [1.0.0](https://github.com/open-wc/storybook-prebuilt/compare/v0.4.0...v1.0.0) (2020-01-20)
 
 
