@@ -18,3 +18,13 @@
 # build
 /_site/
 /dist/
+
+/addon-*
+/*.js.map
+/theming
+/addons.js
+/api.js
+/core-events.js
+/manager.js
+/theming.js
+/web-components.js
