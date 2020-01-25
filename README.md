@@ -36,7 +36,7 @@ We recommend using file extensions when importing files in the browser, this sav
 | @storybook/addon-a11y/register               | storybook-prebuilt/addon-a11y/register.js        |
 | @storybook/addon-docs                        | storybook-prebuilt/addon-docs                    |
 | @storybook/addon-docs/register               | storybook-prebuilt/addon-docs/register.js        |
-| @storybook/addon-links                       | storybook-prebuilt/addon-                        |
+| @storybook/addon-links                       | storybook-prebuilt/addon-links.js                |
 | @storybook/addon-links/register              | storybook-prebuilt/addon-links/register.js       |
 | @storybook/addon-backgrounds/register        | storybook-prebuilt/addon-backgrounds/register.js |
 | @storybook/addon-viewport/register           | storybook-prebuilt/addon-viewport/register.js    |
