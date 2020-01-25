@@ -1,5 +1,5 @@
 {
-  "name": "@open-wc/storybook-prebuilt",
+  "name": "storybook-prebuilt",
   "version": "1.2.0",
   "publishConfig": {
     "access": "public"
