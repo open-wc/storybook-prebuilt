@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/open-wc/storybook-prebuilt/compare/v1.2.0...v1.3.0) (2020-01-25)
+
+
+### Features
+
+* unscope package ([6bc7808](https://github.com/open-wc/storybook-prebuilt/commit/6bc780891322681571f6f368871ffc5f47f65b4a))
+
 ## [1.2.0](https://github.com/open-wc/storybook-prebuilt/compare/v1.1.0...v1.2.0) (2020-01-25)
 
 
