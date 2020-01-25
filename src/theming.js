@@ -11,5 +11,7 @@ export {
   ensure,
   lighten,
   darken,
+  ThemeProvider,
+  withTheme,
 } from '@storybook/theming';
 export * from '@storybook/theming';

@@ -178,6 +178,8 @@ export default {
           'ensure',
           'lighten',
           'darken',
+          'ThemeProvider',
+          'withTheme',
         ],
 
         '@storybook/theming/create': ['create'],
