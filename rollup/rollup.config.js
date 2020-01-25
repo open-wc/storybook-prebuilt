@@ -7,6 +7,7 @@ import { terser } from 'rollup-plugin-terser';
 import builtins from 'rollup-plugin-node-builtins';
 import nodeGlobals from 'rollup-plugin-node-globals';
 import commonjs from '@rollup/plugin-commonjs';
+import babel from 'rollup-plugin-babel';
 import replaceModules from './plugins/replace-modules.js';
 import filterModules from './plugins/filter-modules.js';
 import virtualModules from './plugins/virtual-modules.js';
@@ -245,6 +246,22 @@ export default {
         };
       },
     },
+
+    // the majority of the storybook ecosystem is es5, but some are not. we compile all to es5, so that we can skip
+    // compiling it by users. when storybook dependencies start becoming non-es5, we can consider making a separate
+    // non-es5 build
+    babel.generated({
+      presets: [
+        [
+          '@babel/env',
+          {
+            targets: ['ie 11'],
+            useBuiltIns: false,
+            modules: false,
+          },
+        ],
+      ],
+    }),
 
     // minify final output
     terser(),
