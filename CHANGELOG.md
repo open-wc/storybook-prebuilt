@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/open-wc/storybook-prebuilt/compare/v1.1.0...v1.2.0) (2020-01-25)
+
+
+### Features
+
+* run babel on output ([8832226](https://github.com/open-wc/storybook-prebuilt/commit/88322269eb1db60bde207f84b628d793adeb010b))
+
 ## [1.1.0](https://github.com/open-wc/storybook-prebuilt/compare/v1.0.0...v1.1.0) (2020-01-20)
 
 
