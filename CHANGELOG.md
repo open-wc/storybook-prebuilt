@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/open-wc/storybook-prebuilt/compare/v1.3.0...v1.4.0) (2020-01-25)
+
+
+### Features
+
+* add more exports from theming ([8d2e3cf](https://github.com/open-wc/storybook-prebuilt/commit/8d2e3cf081193bad5b1ff2e2594c43eb22a79317))
+
 ## [1.3.0](https://github.com/open-wc/storybook-prebuilt/compare/v1.2.0...v1.3.0) (2020-01-25)
 
 
