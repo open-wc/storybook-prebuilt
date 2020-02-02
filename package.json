@@ -25,7 +25,8 @@
   "files": [
     "dist",
     "*.js",
-    "addon-*"
+    "addon-*",
+    "theming"
   ],
   "dependencies": {
     "lit-html": "^1.0.0"
