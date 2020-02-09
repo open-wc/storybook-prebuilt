@@ -25,6 +25,7 @@
   "files": [
     "dist",
     "*.js",
+    "*.js.map",
     "addon-*",
     "theming"
   ],
