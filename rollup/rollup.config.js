@@ -227,6 +227,7 @@ export default {
     // resolve bare module imports
     resolve({
       preferBuiltins: false,
+      browser: true,
     }),
 
     // monkey patch some modules
