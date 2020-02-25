@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.5.2](https://github.com/open-wc/storybook-prebuilt/compare/v1.5.1...v1.5.2) (2020-02-25)
+
+
+### Bug Fixes
+
+* use "browser" resolution in build ([e96418f](https://github.com/open-wc/storybook-prebuilt/commit/e96418f9ceba46116455dff51ef7b7bdbee3192e))
+
 ### [1.5.1](https://github.com/open-wc/storybook-prebuilt/compare/v1.5.0...v1.5.1) (2020-02-09)
 
 
