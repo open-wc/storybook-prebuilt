@@ -244,7 +244,7 @@ export default {
       name: 'lit-html-renamer',
       renderChunk(code) {
         return {
-          code: code.replace('import litHtml', 'import * as litHtml'),
+          code: code.replace('import _litHtml', 'import * as _litHtml'),
           map: null,
         };
       },
