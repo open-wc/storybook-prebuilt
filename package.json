@@ -4,6 +4,10 @@
   "publishConfig": {
     "access": "public"
   },
+  "repository": {	
+    "type": "git",
+    "url": "https://github.com/open-wc/storybook-prebuilt.git"
+  },
   "description": "A prebuilt storybook version for web components",
   "author": "open-wc",
   "license": "MIT",
