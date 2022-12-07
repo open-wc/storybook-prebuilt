@@ -60,7 +60,7 @@
     "es-dev-server": "^1.35.0",
     "eslint": "^6.1.0",
     "husky": "^1.0.0",
-    "lint-staged": "^8.0.0",
+    "lint-staged": "^13.1.0",
     "lit-element": "^2.2.1",
     "magic-string": "^0.25.5",
     "rollup": "^1.28.0",
